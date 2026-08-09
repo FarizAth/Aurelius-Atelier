@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selected Projects & Portfolio | Aurelius Atelier NYC</title>
+  <meta name="description" content="Explore selected interior design and architectural projects by Aurelius Atelier including Manhattan townhouses, Tribeca lofts, and boutique hospitality spaces.">
+  <link rel="canonical" href="https://aureliusatelier.com/projects.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Selected Projects | Aurelius Atelier">
+  <meta property="og:description" content="Editorial portfolio of residential townhouses, country estates, and hospitality interiors in New York and beyond.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=85&w=1800&auto=format&fit=crop">
+
+  <!-- Fonts & CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Aurelius Atelier Home">
+        <img src="images/logo.png" alt="Aurelius Atelier Logo">
+      </a>
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="studio.html" class="nav-link">Studio</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="process.html" class="nav-link">Process</a>
+        <a href="journal.html" class="nav-link">Journal</a>
+        <a href="contact.html" class="nav-link">Inquire</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div class="mobile-nav-overlay" aria-hidden="true">
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="studio.html" class="mobile-nav-link">Studio</a>
+      <a href="services.html" class="mobile-nav-link">Services</a>
+      <a href="projects.html" class="mobile-nav-link">Projects</a>
+      <a href="process.html" class="mobile-nav-link">Process</a>
+      <a href="journal.html" class="mobile-nav-link">Journal</a>
+      <a href="contact.html" class="mobile-nav-link">Inquire</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <p>568 Broadway, Soho, New York, NY 10012</p>
+      <p>inquire@aureliusatelier.com</p>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-page bg-primary">
+      <div class="container">
+        <span class="subheading">Portfolio</span>
+        <h1 class="heading-display hero-page-title" style="max-width: 900px;">
+          Selected Architectural Interiors
+        </h1>
+        <p class="lead-paragraph" style="max-width: 720px; color: var(--text-muted); margin-bottom: 3rem;">
+          A curated collection of private residences, historic restorations, and hospitality commissions defined by proportion, material depth, and quiet luxury.
+        </p>
+
+        <!-- Category Filters -->
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;" aria-label="Project Category Filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="residential">Residential</button>
+          <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+          <button class="filter-btn" data-filter="restoration">Historic Restoration</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS GRID -->
+    <section class="section-padding bg-primary">
+      <div class="container">
+        <div class="grid-2" id="projects-grid">
+
+          <!-- Project 1 -->
+          <div class="project-grid-item project-card reveal-fade" data-category="residential">
+            <a href="project.html">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=85&w=1800&auto=format&fit=crop" alt="Upper East Side Townhouse interior architecture">
+              </div>
+              <div class="project-card-meta">
+                <h2 class="project-card-title">Upper East Side Townhouse</h2>
+                <span class="project-card-location">Manhattan, NY</span>
+              </div>
+              <p class="project-card-desc">Comprehensive architectural layout and interior design for a five-story 1890s townhouse. Featuring honed limestone fireplaces, lime plaster walls, and custom oak millwork.</p>
+            </a>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-grid-item project-card reveal-fade" data-category="residential" style="margin-top: 3rem;">
+            <a href="project.html">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=85&w=1800&auto=format&fit=crop" alt="Tribeca Loft cast iron architectural interior">
+              </div>
+              <div class="project-card-meta">
+                <h2 class="project-card-title">Tribeca Cast-Iron Loft</h2>
+                <span class="project-card-location">Franklin St, NYC</span>
+              </div>
+              <p class="project-card-desc">A 4,500 sq ft loft balancing industrial structural iron columns with soft plaster surfaces, floating marble kitchen volumes, and rare twentieth-century furniture.</p>
+            </a>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-grid-item project-card reveal-fade" data-category="residential">
+            <a href="project.html">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=85&w=1800&auto=format&fit=crop" alt="Hudson Valley Estate interior living space">
+              </div>
+              <div class="project-card-meta">
+                <h2 class="project-card-title">Hudson Valley Estate</h2>
+                <span class="project-card-location">Rhinebeck, NY</span>
+              </div>
+              <p class="project-card-desc">A modernist woodland pavilion composed of poured concrete, dark charred cedar, floor-to-ceiling glass, and warm, tactile interior textile layering.</p>
+            </a>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-grid-item project-card reveal-fade" data-category="residential" style="margin-top: 3rem;">
+            <a href="project.html">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=85&w=1800&auto=format&fit=crop" alt="Hamptons Oceanfront Pavilion living area">
+              </div>
+              <div class="project-card-meta">
+                <h2 class="project-card-title">Hamptons Oceanfront Pavilion</h2>
+                <span class="project-card-location">Sagaponack, NY</span>
+              </div>
+              <p class="project-card-desc">A light-filled coastal sanctuary utilizing bleached white oak joinery, raw travertine floors, unlacquered brass, and soft neutral linen upholstery.</p>
+            </a>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-grid-item project-card reveal-fade" data-category="hospitality">
+            <a href="project.html">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?q=85&w=1800&auto=format&fit=crop" alt="Mercer Boutique Hotel cocktail lounge interior">
+              </div>
+              <div class="project-card-meta">
+                <h2 class="project-card-title">Mercer Boutique Hotel</h2>
+                <span class="project-card-location">Soho, NYC</span>
+              </div>
+              <p class="project-card-desc">Interior design for a 28-room boutique hotel and private lounge. Atmospheric lighting, fluted stone bar, custom bronze fixtures, and warm velvet seating.</p>
+            </a>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-grid-item project-card reveal-fade" data-category="restoration" style="margin-top: 3rem;">
+            <a href="project.html">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=85&w=1800&auto=format&fit=crop" alt="West Village Carriage House historic interior restoration">
+              </div>
+              <div class="project-card-meta">
+                <h2 class="project-card-title">West Village Carriage House</h2>
+                <span class="project-card-location">West Village, NYC</span>
+              </div>
+              <p class="project-card-desc">Restoration of a late nineteenth-century carriage house, preserving exposed brick timber joists while inserting a modern central stone courtyard atrium.</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INQUIRY CTA -->
+    <section class="section-padding bg-dark">
+      <div class="container" style="text-align: center; max-width: 800px;">
+        <span class="subheading">Commissions</span>
+        <h2 class="heading-xl" style="margin-bottom: 1.5rem;">Planning a residential or hospitality space?</h2>
+        <p class="body-large" style="margin-bottom: 2.5rem; color: var(--text-muted-dark);">
+          We are currently reviewing architectural design inquiries for upcoming seasonal projects.
+        </p>
+        <a href="contact.html" class="btn-primary btn-dark">Inquire About Your Project</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-brand-logo">
+            <img src="images/logo.png" alt="Aurelius Atelier Logo">
+          </a>
+          <p class="body-normal" style="color: var(--text-muted-dark); max-width: 320px;">
+            Aurelius Atelier is an interior design and architectural practice based in Soho, New York City.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="studio.html" class="footer-link">Studio</a>
+            <a href="services.html" class="footer-link">Services</a>
+            <a href="projects.html" class="footer-link">Selected Work</a>
+            <a href="process.html" class="footer-link">Process</a>
+            <a href="journal.html" class="footer-link">Journal</a>
+            <a href="contact.html" class="footer-link">Inquire</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Specialization</h4>
+          <div class="footer-links">
+            <span class="footer-link">Residential Architecture</span>
+            <span class="footer-link">Townhouse Restoration</span>
+            <span class="footer-link">Boutique Hospitality</span>
+            <span class="footer-link">Custom Joinery</span>
+            <span class="footer-link">Art Curation</span>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact</h4>
+          <div class="footer-links">
+            <span class="footer-link">568 Broadway, Suite 702</span>
+            <span class="footer-link">Soho, New York, NY 10012</span>
+            <a href="mailto:inquire@aureliusatelier.com" class="footer-link" style="text-decoration: underline;">inquire@aureliusatelier.com</a>
+            <a href="tel:+12125550192" class="footer-link">+1 (212) 555-0192</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aurelius Atelier LLC. All rights reserved.</p>
+        <p>Quiet Luxury Interior Architecture / New York City</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
